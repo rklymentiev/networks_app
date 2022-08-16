@@ -2,7 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 from pyvis.network import Network
 import networkx as nx
-import numpy as np
+# import numpy as np
 # import matplotlib.pyplot as plt
 import pandas as pd
 
@@ -13,6 +13,7 @@ st.set_page_config(
     page_icon='🔗', layout="centered")
 st.title('Social Network Demo')
 st.markdown('Author: [Ruslan Klymentiev](https://rklymentiev.com/)')
+st.markdown('*Work in progress...*')
 
 # st.sidebar.subheader('Set-up:')
 algorithm = st.sidebar.selectbox(
