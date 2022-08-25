@@ -62,7 +62,7 @@ elif algorithm == 'Random Lobster Graph':
     G = nx.random_lobster(n, p1, p2)
 
 elif algorithm == 'Random Regular Graph':
-    n = st.sidebar.slider(label='The number of nodes:, value=5, min_value=2, max_value=20, step=1)
+    n = st.sidebar.slider(label='The number of nodes:', value=5, min_value=2, max_value=20, step=1)
     d = st.sidebar.slider(label='The degree of each node:', value=0, min_value=0, max_value=n-1, step=2)
     G = nx.random_regular_graph(d, n)
 
